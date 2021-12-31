@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final ana marquez almazan</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+    <!--message promo-->
+    <div id="promo-message" class="p-3 bg-warning text-white text-center">Préstamos e inversiones entre personas a tasas justas <i class="fas fa-arrow-up"></i></div>
+    <hr class="border-line">
+    <div id="promo-text" class="p-3 bg-warning text-white text-center">¿Tienes dudas?</div>
+    
+
+    <div class="container py-2">
+        <div class="row pt-4">
+            <div class="col-lg-6 col-sm-12">
+                <h1 id="title">Las mejores tasas en préstamos personales</h1>
+                <p>Conectamos a personas que necesitan un préstamo con personas que quieren prestar su dinero, así logramos que pagues menos intereses.</p>
+                <h4 class="mt-5">¡Cotiza tu préstamo!</h4>
+                <form action="">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <label for="">¿Cuánto necesitas?</label>
+                            <input type="text" class="form-control my-2"  placeholder="De $10,000 a $325,000" id="cantidadprestamo" required="" >
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <label for="" class="pb-2">¿A qué plazo quieres pagarlo? </label>
+                             <select class="custom-select" id="plazoprestamo" required="" >
+                                <option value="6">6 meses</option>
+                                <option value="12">12 meses</option>
+                                <option value="18">18 meses</option>
+                                <option value="24">24 meses</option>
+                                <option value="30">30 meses</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button id="botonCalcular" type="reset" class="btn bg-warning text-white mt-4" onclick="show();">Cotizar</button>
+                </form>
+            </div>
+            <div class="col-lg-6 col-sm-12 background" id="image" style="opacity: 0.0;"></div>
+        </div>
+    </div>
+
+    <div class="hide" id="table">
+        <div class="container py-2 text-center">
+            <table class="table table-hover" id="tablePrestamo">
+                <thead>
+                    <tr>
+                    <th scope="col"></th>
+                    <th scope="col"><small>NUESTRA MEJOR TASA</small></th>
+                    <th scope="col"><small>NUESTRA TASA PROMEDIO</small></th>
+                    <th scope="col"><small>TASA DE LOS BANCOS</small></th>
+                    </tr>
+                </thead>      
+            </table>
+
+            <!-- Redirección a formulario de registro -->
+            <a href="./formulario.html" type="button" class="btn btn-warning text-white">Registrarme</a>
+
+            <p class="py-2"><small>Tasa de interés anual y fija de 8.9% a 38.9% sin IVA, ésta dependerá del proceso de evaluación y calificación de nuestra área de crédito. Ejemplo representativo: monto de crédito por $100,000.00, con tasa anual de 8.9% y a un plazo de 36 meses. | Tasa anual 8.9% | Tasa máxima representativa 38.9% | Monto total a pagar: $123,591.00 | CAT Promedio 23.28% sin IVA, para fines informativos y de comparación exclusivamente, calculado el 25 de agosto de 2020 </small></p>
+            
+        </div>
+    </div>
+
+    <div class="container py-2">
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 py-3">
+                        <div id="waffles_contenedor" class="row"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!--AJAX-->
+    <div class="container" id="lista"> 
+        
+    </div>
+
+    <footer class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md col-ms-12">
+            <img src="./images/logo-konsigue.png" alt="Logotipo Konsigue" class="logo">
+            <small class="d-block mb-3 text-muted">© 2017-2018</small>
+          </div>
+          <div class="col-6 col-md col-ms-12">
+            <h5>Síguenos</h5>
+            <ul class="list-unstyled text-small row">
+              <li><a class="text-muted ml-3" href="https://twitter.com/konsigue" target="_blank"><img src="./images/twitter-icon.svg" alt="Síguenos en twitter"></a></li>
+              <li><a class="text-muted ml-3" href="https://mx.linkedin.com/company/konsigue" target="_blank"><img src="./images/linkedin-icon.svg" alt="Síguenos en twitter"></a></li>
+              <li><a class="text-muted ml-3" href="https://www.youtube.com/channel/UCRz-g-tMk2IKNd2Zqn8RKeA" target="_blank"><img src="./images/youtube-icon.svg" alt="Síguenos en twitter"></a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md col-ms-12">
+            <h5>Descarga la app para invertir</h5>
+            <ul class="list-unstyled text-small row">
+              <li><img src="./images/60fee83d8392d80b8e7e7f76_playstore.svg" alt="Descarga la app en playstore" class="ml-3"></li>
+              <li><img src="./images/60fee83d8392d83e687e7f77_appstore.svg" alt="Descarga la app en app store" class="ml-3"></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+
+    <div class="inner text-center bg-warning mb-0 pt-2 pb-2">
+        <div class="container">
+            <p class="small text-dark mb-0">En términos del artículo octavo transitorio de la ley para regular las instituciones de tecnología financiera, la autorización para llevar a cabo operaciones dentro de esta plataforma de financiamiento colectivo se encuentra en trámite, por lo que la operación actual de la plataforma no es una actividad supervisada por las autoridades mexicanas.</p>
+            <p class="small text-dark mb-0">Tasa de interés anual y fija de 8.9% a 38.9% sin IVA, ésta dependerá del proceso de evaluación y calificación de nuestra área de crédito. Ejemplo representativo: monto de crédito por $100,000.00, con tasa anual de 8.9% y a un plazo de 36 meses. Monto total a pagar: $123,591.00. CAT Promedio: 23.28% sin IVA, para fines informativos y de comparación exclusivamente, calculado el 25 de agosto de 2020. Consulta términos y condiciones.</p>
+        </div>
+    </div>
+
+    <!--Information-->
+    <div class="inner text-center bg-dark p-2 mt-0">
+        <p class="text-white ">Derechos reservados Konsigue 2021©. Diseñado por <a href="https://www.i-magodesign.com/" target="_blank">Imago Design</a>.</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/clase10-ana-marquez-almazan.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>   
+</body>
+</html>

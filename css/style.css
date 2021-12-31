@@ -1,0 +1,47 @@
+/* Custom Stylesheet */
+/***/
+
+.background{
+    background-image: url('../prestamos-back.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 500px;
+}
+.hide {
+    display: none;
+}
+
+.show {
+    display: visible;
+}
+
+ hr.border-line{
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid rgb(255 255 255);
+}
+
+img.logo_footer {
+    width: 55%;
+}
+
+img.logo_header {
+    width: 20%;
+}
+
+.logo{
+    width: 30%;
+}
+
+#lista{
+    display: flex;
+}
+
+@media (max-width: 400px) {
+    #lista {
+    display: flex;
+    flex-direction: column;
+    }
+}

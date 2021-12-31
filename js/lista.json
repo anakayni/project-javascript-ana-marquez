@@ -1,0 +1,23 @@
+
+[
+    {
+        "title":"Inversionista", 
+        "subtitle": "Alta rentabilidad de tu dinero.", 
+        "beneficio1":"Rentabilidad a partir del primer mes.", 
+        "beneficio2":"Elige las mejores oportunidades de inversión.", 
+        "beneficio3":"Apoya la econimía real y talento de las PYMES.",
+        "beneficio4":"Invierte desde $250 pesos.",
+        "button":"Quiero invertir", 
+        "url":""
+    },
+    {
+        "title":"Empresas", 
+        "subtitle": "Resolvemos tu solicitud en 46 hrs.", 
+        "beneficio1":"Financiamiento eficiente, ágil y de bajo costo.", 
+        "beneficio2":"Rapidez, flexibilidad y transparencia.", 
+        "beneficio3":"Financiamientos hasta el 100% de sus facturas.",
+        "beneficio4":"Mejora el flujo de efectivo de tu empresa.",
+        "button":"Quiero un crédito", 
+        "url":""
+    }
+]

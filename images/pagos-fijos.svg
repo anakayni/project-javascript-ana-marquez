@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>pagos-fijos</title>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Préstamo" transform="translate(-436.000000, -930.000000)">
+            <g id="pagos-fijos" transform="translate(436.000000, 930.000000)">
+                <rect id="Rectangle-Copy-22" fill="#5F65DE" x="0" y="0" width="80" height="80" rx="27"></rect>
+                <path d="M41,24 C43.209139,24 45.209139,24.8954305 46.6568542,26.3431458 C48.1045695,27.790861 49,29.790861 49,32 L49,32 L49,36 L32,36 L32,32 C32,29.790861 32.8954305,27.790861 34.3431458,26.3431458 C35.790861,24.8954305 37.790861,24 40,24 L40,24 Z" id="Combined-Shape-Copy-3" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M51,36 C51.8284271,36 52.5784271,36.3357864 53.1213203,36.8786797 C53.6642136,37.4215729 54,38.1715729 54,39 L54,39 L54,48 C54,49.9329966 53.2164983,51.6829966 51.9497475,52.9497475 C50.6829966,54.2164983 48.9329966,55 47,55 L47,55 L34,55 C32.0670034,55 30.3170034,54.2164983 29.0502525,52.9497475 C27.7835017,51.6829966 27,49.9329966 27,48 L27,48 L27,39 C27,38.1715729 27.3357864,37.4215729 27.8786797,36.8786797 C28.4215729,36.3357864 29.1715729,36 30,36 L30,36 Z" id="Rectangle-Copy-25" stroke="#FFFFFF" stroke-width="2"></path>
+                <rect id="Rectangle-Copy-26" fill="#FFFFFF" x="39" y="41" width="3" height="6" rx="1.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

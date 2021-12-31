@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>plazos</title>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Préstamo" transform="translate(-661.000000, -930.000000)">
+            <g id="plazos" transform="translate(661.000000, 930.000000)">
+                <rect id="Rectangle-Copy-28" fill="#4B92F6" x="0" y="0" width="80" height="80" rx="27"></rect>
+                <rect id="Rectangle-Copy-32" stroke="#FFFFFF" stroke-width="2" x="25" y="26" width="31" height="28" rx="6"></rect>
+                <rect id="Rectangle-Copy-33" fill="#FFFFFF" x="31" y="21" width="3" height="8" rx="1.5"></rect>
+                <rect id="Rectangle-Copy-34" fill="#FFFFFF" x="47" y="21" width="3" height="8" rx="1.5"></rect>
+                <path d="M42,45 L42,35.9281437 C42,35.4155441 41.5844559,35 41.0718563,35 L40.5879426,35 C40.3051148,35 40.0355136,35.1197649 39.8459146,35.3296311 L37.5926313,37.8237795 C37.2541884,38.1984002 37.2480637,38.7665345 37.5783517,39.1483645 L37.6062874,39.1806597 C37.9003638,39.5206271 38.4143578,39.5578292 38.7543252,39.2637528 C38.7808982,39.2407668 38.8059549,39.2160843 38.8293381,39.1898601 L39.8742515,38.017991 L39.8742515,38.017991 L39.8742515,45 C39.8742515,45.5522847 40.3219667,46 40.8742515,46 L41,46 C41.5522847,46 42,45.5522847 42,45 Z" id="1-copy-2" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

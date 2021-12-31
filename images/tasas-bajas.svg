@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tasas-bajas</title>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Préstamo" transform="translate(-210.000000, -930.000000)">
+            <g id="tasas-bajas" transform="translate(210.000000, 930.000000)">
+                <rect id="Rectangle-Copy-17" fill="#00C574" x="0" y="0" width="80" height="80" rx="27"></rect>
+                <rect id="Rectangle-Copy-18" stroke="#FFFFFF" fill="#FFFFFF" x="24.5" y="40.5" width="7" height="13" rx="3"></rect>
+                <rect id="Rectangle-Copy-19" stroke="#FFFFFF" stroke-width="2" x="37" y="32" width="6" height="21" rx="3"></rect>
+                <rect id="Rectangle-Copy-20" stroke="#FFFFFF" stroke-width="2" x="49" y="21" width="6" height="32" rx="3"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

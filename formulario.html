@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase6-ana-marquez-almazan</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        .background{
+            background-image: url('prestamos-back.jpg');
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            height: 500px;
+        }
+        .hide {
+            display: none;
+        }
+
+        .show {
+            display: visible;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container py-2 pt-5">
+        <div class="row mt-4">
+            <div class="col-lg-6 col-sm-12">
+                <form class="justify-content-md-center" id="registrationForm">
+                    <div class="col">
+                        &nbsp;
+                        </div>
+                        <div class="col col-sm-12">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" placeholder="Ana Rosa">
+                                    <div id="messageName"></div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputPassword4">Apellido</label>
+                                    <input type="text" class="form-control" id="apellido" placeholder="Gutierrez">
+                                    <div id="messageLast"></div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="email">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="email" placeholder="tuname@tumail.com">
+                                    <div id="messageEmail"></div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                <label for="inputPassword4">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Debe contener 8 caracteres, letras y numeros.">
+                                <div id="messagePassword"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Teléfono</label>
+                                <input type="phone" class="form-control" id="telefono" placeholder="55 12345678">
+                                <div id="messagePhone"></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="terminos">
+                                <label class="form-check-label" for="gridCheck">
+                                    Acepto los <strong>términos</strong> y <strong>condiciones</strong>.
+                                </label>
+                                </div>
+                            </div>
+                            
+                            <button id="enviar" type="button" class="btn btn-success mt-4">Registrarme</button> 
+                        </div>
+                        <div class="col">
+                        &nbsp;
+                        </div>
+                </form>
+            </div>
+            <div class="col-lg-6 col-sm-12 text-center">
+                <img src="./images/buen-historial.jpg" alt="Buen historial crediticio" height="70%">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="form.js"></script>
+</body>
+</html>
